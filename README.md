@@ -1,6 +1,6 @@
 # ISports API Python SDK
 
-A comprehensive Python SDK for the iSports API, providing easy access to football and basketball data.
+A comprehensive Python SDK for the [iSports API](https://www.isportsapi.com), providing easy access to football and basketball data.
 
 ## Features
 
@@ -62,7 +62,7 @@ client = ISportsClient(api_key="your_api_key")
 livescores = client.football.live_data.livescores()
 
 # Get basketball schedule
-schedule = client.basketball.live_data.schedule(date="2024-01-15")
+schedule = client.basketball.live_data.schedule(date="2026-04-25")
 ```
 
 ### Asynchronous Client
@@ -169,7 +169,7 @@ schedule = client.football.live_data.schedule_basic(
 
 ```bash
 git clone https://github.com/isportsapiofficial/isports-sdk.git
-cd isports-sdk-python
+cd isports-sdk
 pip install -e ".[dev]"
 ```
 
